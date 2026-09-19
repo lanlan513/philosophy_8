@@ -1,0 +1,158 @@
+{
+  "version": "v1.3.0",
+  "updatedAt": "2026-09-01",
+  "moods": ["unease", "lucidity", "solitude", "courage", "calm"],
+  "entries": [
+    {
+      "id": "unease-kierkegaard-1844",
+      "mood": "unease",
+      "quote": "焦虑是自由的眩晕。",
+      "philosopher": "索伦·克尔凯郭尔",
+      "year": "1844 年",
+      "response": "眩晕并不意味着坠落，它只是说明脚下出现了新的高度。",
+      "image": "images/unease.svg",
+      "availableFrom": "2020-01-01"
+    },
+    {
+      "id": "unease-seneca-65",
+      "mood": "unease",
+      "quote": "我们经受的痛苦，大多来自想象，而非现实。",
+      "philosopher": "塞涅卡",
+      "year": "约 65 年",
+      "response": "想象值得被听见，但它并不总是证人。",
+      "image": "images/unease.svg",
+      "availableFrom": "2020-01-01"
+    },
+    {
+      "id": "unease-pascal-1670",
+      "mood": "unease",
+      "quote": "人类一切的不幸，都源于不能安静地独自待在自己的房间里。",
+      "philosopher": "布莱兹·帕斯卡",
+      "year": "1670 年",
+      "response": "房间还在那里，不催你回去。",
+      "image": "images/unease.svg",
+      "availableFrom": "2020-01-01"
+    },
+    {
+      "id": "lucidity-camus-1954",
+      "mood": "lucidity",
+      "quote": "在隆冬，我终于知道，我身上有一个不可战胜的夏天。",
+      "philosopher": "阿尔贝·加缪",
+      "year": "1954 年",
+      "response": "夏天不必被证明，它只需被记起。",
+      "image": "images/lucidity.svg",
+      "availableFrom": "2020-01-01"
+    },
+    {
+      "id": "lucidity-aurelius-180",
+      "mood": "lucidity",
+      "quote": "你心中所想，决定了你心灵的品质。",
+      "philosopher": "马可·奥勒留",
+      "year": "约 180 年",
+      "response": "念头来来去去，照看它们的人一直醒着。",
+      "image": "images/lucidity.svg",
+      "availableFrom": "2020-01-01"
+    },
+    {
+      "id": "lucidity-schopenhauer-1851",
+      "mood": "lucidity",
+      "quote": "我们很少想到自己已经拥有的，却总是惦记自己缺少的。",
+      "philosopher": "阿图尔·叔本华",
+      "year": "1851 年",
+      "response": "清点拥有之物，并不等于否认缺失。",
+      "image": "images/lucidity.svg",
+      "availableFrom": "2020-01-01"
+    },
+    {
+      "id": "solitude-rilke-1904",
+      "mood": "solitude",
+      "quote": "要对心中所有未解的问题保持耐心，去爱问题本身，如同爱一间紧锁的房间。",
+      "philosopher": "莱内·马利亚·里尔克",
+      "year": "1904 年",
+      "response": "问题不急着被解开，它先想被陪伴。",
+      "image": "images/solitude.svg",
+      "availableFrom": "2020-01-01"
+    },
+    {
+      "id": "solitude-nietzsche-1888",
+      "mood": "solitude",
+      "quote": "凡不能杀死我的，使我更强大。",
+      "philosopher": "弗里德里希·尼采",
+      "year": "1888 年",
+      "response": "强大与否可以存疑，留下来已是事实。",
+      "image": "images/solitude.svg",
+      "availableFrom": "2020-01-01"
+    },
+    {
+      "id": "solitude-montaigne-1580",
+      "mood": "solitude",
+      "quote": "我们必须为自己保留一间后屋，完全属于我们自己，安放真正的自由与退隐。",
+      "philosopher": "米歇尔·德·蒙田",
+      "year": "1580 年",
+      "response": "后屋的门从里面上锁，钥匙一直在你手里。",
+      "image": "images/solitude.svg",
+      "availableFrom": "2020-01-01",
+      "availableTo": "2025-12-31"
+    },
+    {
+      "id": "courage-seneca-65",
+      "mood": "courage",
+      "quote": "命运引领顺从者，拖拽反抗者。",
+      "philosopher": "塞涅卡",
+      "year": "约 65 年",
+      "response": "被拖拽还是同行，差别也许只在脚步的方向。",
+      "image": "images/courage.svg",
+      "availableFrom": "2020-01-01"
+    },
+    {
+      "id": "courage-nietzsche-1883",
+      "mood": "courage",
+      "quote": "人是应当被超越的东西。",
+      "philosopher": "弗里德里希·尼采",
+      "year": "1883 年",
+      "response": "超越不必发生在今天，方向先被说出。",
+      "image": "images/courage.svg",
+      "availableFrom": "2020-01-01"
+    },
+    {
+      "id": "courage-laozi-bc6",
+      "mood": "courage",
+      "quote": "千里之行，始于足下。",
+      "philosopher": "老子",
+      "year": "约公元前 6 世纪",
+      "response": "第一步很小，小到常常不被旁人看见。",
+      "image": "images/courage.svg",
+      "availableFrom": "2020-01-01"
+    },
+    {
+      "id": "calm-epictetus-125",
+      "mood": "calm",
+      "quote": "困扰人的不是事情本身，而是人对事情的看法。",
+      "philosopher": "爱比克泰德",
+      "year": "约 125 年",
+      "response": "看法可以松动，事情未必马上改变，两者并不矛盾。",
+      "image": "images/calm.svg",
+      "availableFrom": "2020-01-01"
+    },
+    {
+      "id": "calm-laozi-bc6",
+      "mood": "calm",
+      "quote": "致虚极，守静笃。万物并作，吾以观复。",
+      "philosopher": "老子",
+      "year": "约公元前 6 世纪",
+      "response": "观看本身，已经是一种参与。",
+      "image": "images/calm.svg",
+      "availableFrom": "2020-01-01"
+    },
+    {
+      "id": "calm-thoreau-1854",
+      "mood": "calm",
+      "quote": "我步入丛林，因为我希望活得有意义，只面对生活中最本质的事实。",
+      "philosopher": "亨利·戴维·梭罗",
+      "year": "1854 年",
+      "response": "本质的东西不多，认出一两件已经足够忙一阵。",
+      "image": "images/calm.svg",
+      "availableFrom": "2020-01-01"
+    }
+  ]
+}
