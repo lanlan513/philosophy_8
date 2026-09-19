@@ -1,20 +1,14 @@
 {
-  "name": "the-philosophy-archive",
+  "name": "aphorism-darkroom",
+  "version": "1.0.0",
+  "description": "箴言显影机 — 拖动黄铜滑块选择情绪，显影一段箴言",
   "private": true,
-  "version": "0.1.0",
-  "type": "module",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview"
+    "start": "node server/index.js",
+    "assets": "node tools/make-images.js",
+    "test": "node tools/smoke-test.js"
   },
-  "dependencies": {
-    "@vitejs/plugin-react": "latest",
-    "vite": "latest",
-    "react": "latest",
-    "react-dom": "latest",
-    "react-router-dom": "latest",
-    "lucide-react": "latest"
-  },
-  "devDependencies": {}
+  "engines": {
+    "node": ">=18"
+  }
 }

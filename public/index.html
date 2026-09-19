@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <title>箴言显影机</title>
+  <meta name="description" content="拖动黄铜滑块选择情绪，在暗房里显影一段箴言。" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="app" id="app">
+    <header class="masthead">
+      <h1 class="title">箴言显影机</h1>
+      <p class="subtitle">APHORISM&nbsp;DARKROOM&nbsp;·&nbsp;一间小小的暗房</p>
+    </header>
+
+    <!-- 显影舞台 -->
+    <main class="stage-wrap">
+      <section class="stage" id="stage" aria-live="polite">
+        <div class="stage-bg" id="stageBg"></div>
+        <img class="stage-img" id="stageImg" alt="" draggable="false" />
+        <canvas class="grain-canvas" id="grainCanvas" aria-hidden="true"></canvas>
+        <div class="stage-veil" id="stageVeil"></div>
+
+        <div class="developing-hint" id="developingHint" hidden>
+          <span class="hint-dot"></span>显影中…
+        </div>
+
+        <article class="paper" id="paper">
+          <p class="paper-empty" id="paperEmpty">
+            拖动下方的黄铜滑块，选择一种情绪，<br />相纸会替你慢慢显影一段箴言。
+          </p>
+          <blockquote class="quote" id="quote" hidden></blockquote>
+          <p class="attrib" id="attrib" hidden>
+            <span class="philosopher" id="philosopher"></span>
+            <span class="era" id="era"></span>
+          </p>
+          <p class="response" id="response" hidden></p>
+        </article>
+      </section>
+
+      <!-- 操作区 -->
+      <div class="actions" id="actions" hidden>
+        <button class="btn" id="btnReshuffle" type="button">再次显影</button>
+        <button class="btn" id="btnSave" type="button">收藏此页</button>
+        <button class="btn btn-primary" id="btnCard" type="button">存为思想卡片</button>
+        <button class="btn btn-ghost" id="btnFavs" type="button" aria-expanded="false">收藏夹</button>
+      </div>
+
+      <p class="toast" id="toast" role="status" hidden></p>
+
+      <!-- 收藏夹抽屉 -->
+      <aside class="drawer" id="drawer" hidden>
+        <div class="drawer-head">
+          <h2>收藏夹</h2>
+          <button class="btn btn-ghost" id="btnCloseDrawer" type="button">收起</button>
+        </div>
+        <ul class="fav-list" id="favList"></ul>
+        <p class="drawer-empty" id="favEmpty" hidden>还没有收藏。显影后点「收藏此页」即可留存。</p>
+      </aside>
+    </main>
+
+    <!-- 黄铜滑块 -->
+    <footer class="console">
+      <div class="slider-labels" id="sliderLabels" aria-hidden="true"></div>
+      <div
+        class="slider"
+        id="slider"
+        role="slider"
+        tabindex="0"
+        aria-label="选择情绪"
+        aria-valuemin="0"
+        aria-valuemax="4"
+        aria-valuenow="2"
+        aria-valuetext="孤独"
+      >
+        <div class="slider-track"></div>
+        <div class="slider-stops" id="sliderStops"></div>
+        <div class="knob" id="knob">
+          <div class="knob-face"></div>
+        </div>
+      </div>
+      <p class="console-hint">拖动滑块 · 或用 ← → 键微调</p>
+    </footer>
+  </div>
+
+  <noscript>
+    <p style="color:#c9b48a;text-align:center;padding:2rem">
+      这台显影机需要 JavaScript 才能运转；没有它，暗房里只剩这句话：慢慢来。
+    </p>
+  </noscript>
+
+  <script src="grain.js"></script>
+  <script src="card.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

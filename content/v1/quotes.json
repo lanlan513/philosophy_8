@@ -1,0 +1,214 @@
+{
+  "version": "v1",
+  "publishedAt": "2026-01-01",
+  "emotions": ["anxious", "lucid", "lonely", "brave", "calm"],
+  "items": [
+    {
+      "id": "v1-anxious-01",
+      "emotion": "anxious",
+      "quote": "你心中所想，决定了你心灵的质地；不必把尚未到来的苦难，提前搬进今天。",
+      "philosopher": "马可·奥勒留",
+      "era": "121–180 · 古罗马",
+      "response": "不安也许只是想象走在了事实前面。看见它，未必需要驱赶它。",
+      "image": "assets/moods/anxious.png",
+      "alt": "暗紫灰色渐变，中央有一团微弱的光"
+    },
+    {
+      "id": "v1-anxious-02",
+      "emotion": "anxious",
+      "quote": "使我们不安的并非事情本身，而是我们关于事情的看法。",
+      "philosopher": "爱比克泰德",
+      "era": "约 50–135 · 古罗马",
+      "response": "看法可以被端详，也可以被放下——这一步由你，不由箴言。",
+      "image": "assets/moods/anxious.png",
+      "alt": "暗紫灰色渐变，中央有一团微弱的光"
+    },
+    {
+      "id": "v1-anxious-03",
+      "emotion": "anxious",
+      "quote": "人类许多的不幸，源于无法安静地独自待在房间里。",
+      "philosopher": "布莱兹·帕斯卡",
+      "era": "1623–1662 · 法兰西",
+      "response": "坐不住的时候，也许正是值得坐下来的时候。也也许不是。",
+      "image": "assets/moods/anxious.png",
+      "alt": "暗紫灰色渐变，中央有一团微弱的光"
+    },
+    {
+      "id": "v1-anxious-04",
+      "emotion": "anxious",
+      "quote": "至人用心若镜：不将不迎，应而不藏，故能胜物而不伤。",
+      "philosopher": "庄子",
+      "era": "约前 369–前 286 · 战国",
+      "response": "镜子不挽留任何影像。此刻经过你的，也未必需要被收藏。",
+      "image": "assets/moods/anxious.png",
+      "alt": "暗紫灰色渐变，中央有一团微弱的光",
+      "notBefore": "2026-09-01",
+      "notAfter": "2026-11-30"
+    },
+
+    {
+      "id": "v1-lucid-01",
+      "emotion": "lucid",
+      "quote": "未经省察的生活，不值得过。",
+      "philosopher": "苏格拉底",
+      "era": "前 470–前 399 · 雅典",
+      "response": "省察不必是审判。只是多看一眼，也算数。",
+      "image": "assets/moods/lucid.png",
+      "alt": "冷青色渐变，如月光落在水面"
+    },
+    {
+      "id": "v1-lucid-02",
+      "emotion": "lucid",
+      "quote": "一个人能看清自己的欲望时，便已不再完全属于欲望。",
+      "philosopher": "亚瑟·叔本华",
+      "era": "1788–1860 · 德意志",
+      "response": "看清与摆脱之间还有很长的路，这段路不必今天走完。",
+      "image": "assets/moods/lucid.png",
+      "alt": "冷青色渐变，如月光落在水面"
+    },
+    {
+      "id": "v1-lucid-03",
+      "emotion": "lucid",
+      "quote": "我知道什么？",
+      "philosopher": "米歇尔·德·蒙田",
+      "era": "1533–1592 · 法兰西",
+      "response": "三个字的疑问，有时比一屋子答案更清醒。",
+      "image": "assets/moods/lucid.png",
+      "alt": "冷青色渐变，如月光落在水面"
+    },
+    {
+      "id": "v1-lucid-04",
+      "emotion": "lucid",
+      "quote": "知人者智，自知者明。胜人者有力，自胜者强。",
+      "philosopher": "老子",
+      "era": "约前 6 世纪 · 春秋",
+      "response": "明与强都不喧哗。你今天看向自己的这一眼，算不算，由你。",
+      "image": "assets/moods/lucid.png",
+      "alt": "冷青色渐变，如月光落在水面"
+    },
+
+    {
+      "id": "v1-lonely-01",
+      "emotion": "lonely",
+      "quote": "我从未找到过比孤独更合得来的同伴。",
+      "philosopher": "亨利·戴维·梭罗",
+      "era": "1817–1862 · 美国",
+      "response": "孤独有时是房间，有时只是别人眼里的空椅子。是哪一种，不必现在回答。",
+      "image": "assets/moods/lonely.png",
+      "alt": "深夜蓝色渐变，远处有一点冷光"
+    },
+    {
+      "id": "v1-lonely-02",
+      "emotion": "lonely",
+      "quote": "哪有什么胜利可言，挺住意味着一切。",
+      "philosopher": "莱内·马利亚·里尔克",
+      "era": "1875–1926 · 布拉格",
+      "response": "挺住不是命令，只是一种被记录过的可能。",
+      "image": "assets/moods/lonely.png",
+      "alt": "深夜蓝色渐变，远处有一点冷光"
+    },
+    {
+      "id": "v1-lonely-03",
+      "emotion": "lonely",
+      "quote": "独与天地精神往来，而不敖倪于万物。",
+      "philosopher": "庄子",
+      "era": "约前 369–前 286 · 战国",
+      "response": "独处与孤立，字形相近，方向相反。你站在哪一侧，此刻可以不确定。",
+      "image": "assets/moods/lonely.png",
+      "alt": "深夜蓝色渐变，远处有一点冷光"
+    },
+    {
+      "id": "v1-lonely-04",
+      "emotion": "lonely",
+      "quote": "他独处之时，恰是他最不孤独之时。",
+      "philosopher": "西塞罗（记西庇阿语）",
+      "era": "前 106–前 43 · 古罗马",
+      "response": "有些陪伴不发出声音。这句话是否适用于你，留给你。",
+      "image": "assets/moods/lonely.png",
+      "alt": "深夜蓝色渐变，远处有一点冷光"
+    },
+
+    {
+      "id": "v1-brave-01",
+      "emotion": "brave",
+      "quote": "我们不是因为事情难才不敢，而是因为不敢，事情才显得难。",
+      "philosopher": "塞涅卡",
+      "era": "约前 4–65 · 古罗马",
+      "response": "难与不敢互为镜子。先照哪一面，没有标准顺序。",
+      "image": "assets/moods/brave.png",
+      "alt": "赭红与暗金渐变，如余烬"
+    },
+    {
+      "id": "v1-brave-02",
+      "emotion": "brave",
+      "quote": "挡住去路的东西，本身也可以成为路。",
+      "philosopher": "马可·奥勒留",
+      "era": "121–180 · 古罗马",
+      "response": "障碍不一定欢迎被利用，但它未必介意。",
+      "image": "assets/moods/brave.png",
+      "alt": "赭红与暗金渐变，如余烬"
+    },
+    {
+      "id": "v1-brave-03",
+      "emotion": "brave",
+      "quote": "自反而不缩，虽褐宽博，吾不惴焉；自反而缩，虽千万人，吾往矣。",
+      "philosopher": "孟子",
+      "era": "约前 372–前 289 · 战国",
+      "response": "「往矣」之前，他先「自反」。勇气之前的那一步，常常被忽略。",
+      "image": "assets/moods/brave.png",
+      "alt": "赭红与暗金渐变，如余烬"
+    },
+    {
+      "id": "v1-brave-04",
+      "emotion": "brave",
+      "quote": "敢于冒险会带来焦虑；不敢冒险，则会失去自己。",
+      "philosopher": "索伦·克尔凯郭尔",
+      "era": "1813–1855 · 丹麦",
+      "response": "两种代价都被写在这里了。选哪一种，这句话不替你做主。",
+      "image": "assets/moods/brave.png",
+      "alt": "赭红与暗金渐变，如余烬"
+    },
+
+    {
+      "id": "v1-calm-01",
+      "emotion": "calm",
+      "quote": "致虚极，守静笃。万物并作，吾以观复。",
+      "philosopher": "老子",
+      "era": "约前 6 世纪 · 春秋",
+      "response": "万物在动，观看者可以暂时不动。暂时，就够了。",
+      "image": "assets/moods/calm.png",
+      "alt": "雾绿与米白渐变，如清晨的湖面"
+    },
+    {
+      "id": "v1-calm-02",
+      "emotion": "calm",
+      "quote": "心灵退入自身之内，便找到了最不受打扰的居所。",
+      "philosopher": "马可·奥勒留",
+      "era": "121–180 · 古罗马",
+      "response": "居所不必很大，能容下此刻的一次呼吸即可。",
+      "image": "assets/moods/calm.png",
+      "alt": "雾绿与米白渐变，如清晨的湖面"
+    },
+    {
+      "id": "v1-calm-03",
+      "emotion": "calm",
+      "quote": "真正的平静，不是风暴的缺席，而是内心秩序的在场。",
+      "philosopher": "塞涅卡",
+      "era": "约前 4–65 · 古罗马",
+      "response": "秩序不必完美，有一点，就算有一点。",
+      "image": "assets/moods/calm.png",
+      "alt": "雾绿与米白渐变，如清晨的湖面"
+    },
+    {
+      "id": "v1-calm-04",
+      "emotion": "calm",
+      "quote": "水静则明烛须眉，平中准，大匠取法焉。",
+      "philosopher": "庄子",
+      "era": "约前 369–前 286 · 战国",
+      "response": "水不追求照见什么，它只是先静了下来。",
+      "image": "assets/moods/calm.png",
+      "alt": "雾绿与米白渐变，如清晨的湖面",
+      "notAfter": "2020-01-01"
+    }
+  ]
+}
